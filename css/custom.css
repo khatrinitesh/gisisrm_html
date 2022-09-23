@@ -183,6 +183,10 @@ footer .txt_copyright{
 	padding: 50px 0;
 }
 
+.homepage .features_content .box_features  .icon_block{
+	max-width: 80px;
+}
+
 .homepage .features_content .box_features .subtitle{
 	color: #FAC740;
 	font-size: 42px;
@@ -448,18 +452,15 @@ footer .txt_copyright{
 
 	.homepage .features_content .box_features{
 		margin: 0 0 30px;
-		text-align: center;
 		justify-content: center;
-		flex-direction: column;
+		padding: 0 30px;
 	}
 
-	.homepage .features_content .box_features .icon_block.me-3{
-		margin-right: 0 !important;
-		margin-bottom: 20px;
-	}
 
 	.homepage .features_content .box_features .subtitle{
-		font-size: 25px;
+		font-size: 20px;
+		width: calc(100% - 20px);
+		margin: 0;
 	}
 
 	.homepage .awareness_content .title_block .headtitle{
@@ -469,6 +470,11 @@ footer .txt_copyright{
 	.homepage .banner .banner_left {
 		text-align: center;
 	}
+
+	.homepage .features_content .box_features  .icon_block{
+		max-width: 50px;
+	}
+
 
 }
 
