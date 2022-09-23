@@ -1,4 +1,14 @@
 $(document).ready(function(){
+
+	// megamenu 
+	$(function(){
+		$(".navbar-nav .dropdown_megamenu").hover(function(){
+			$(".list_megamenu").toggleClass('list_megamenu_active')
+		});
+		$(".navbar-nav .dropdown").hover(function(){
+			$(".list_singledropdown").toggleClass('list_singledropdown_active')
+		});
+	});
 	// SLIDESHOW 
     $(function() {
 	  // Owl Carousel
